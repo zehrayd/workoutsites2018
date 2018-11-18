@@ -1,0 +1,160 @@
+
+body{
+    background-image: url("https://media.mnn.com/assets/images/2013/02/nyctrees.jpg.560x0_q80_crop-smart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    border: 5px double #2d7a0e;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f3e3;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container {
+    background-color: #f7f3e3;
+/*    font-display: auto;*/
+    border: 10px #2d7a0e;
+    padding: 5px;
+    
+}
+.nav-item{
+    font-family: sans-serif;
+    font-size: 30;
+    align-items: center;
+    display: flex;
+}
+
+.p {
+  margin-top: 0em;
+  margin-bottom: .5em;
+}
+
+a:link {
+    color: #2d7a0e;
+}
+
+.h1{
+    /*color:#2d7a0e;*/
+    font-weight: bolder;
+    font-size: 50;
+}
+/*
+
+.h1:hover{
+   transform: scale(2); 
+}
+*/
+
+/*
+.h2{
+    font-family: sans-serif;
+    color: #f7f3e3;
+    font-weight: bold;
+    font-size: 40;
+}
+*/
+/*
+.homepage{
+    font-size: 30;
+    font-family: sans-serif;
+    border:6px double #2d7a0e;
+    background-color:#f7f3e3;
+    width: 90%;
+    margin: 60;
+    padding: 20;
+    text-align: center;
+}
+*/
+
+/*FROM HERE IS FOR THE SITES PAGE*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+/*
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+*/
+
+.section {
+    height: 100%;
+    padding-top: 20px;
+}
+.manhattan{
+    padding: 3%;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    background: #f7f3e3;
+} 
+
+.queens{
+    padding: 3%;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    background: #f7f3e3;    
+}
+
+.brooklyn{
+    padding: 3%;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    background: #f7f3e3;    
+}
+
+.bronx{
+    padding: 3%;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    background: #f7f3e3;    
+}
+
+.statenisland{
+    padding: 3%;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    background: #f7f3e3;    
+}
+
+/*contact page*/
+
+.contactform{
+    font-family: sans-serif;
+    border: 6px double #f7f3e3;
+    padding: 3%;
+    color: #f7f3e3;
+
+    
+}
